@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/background"
+              android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/sex_pop_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        android:orientation="vertical">
+
+        <View
+            style="@style/line_width"></View>
+        <TextView
+            android:id="@+id/sex_man"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sex_pop_hei"
+            android:gravity="center"
+            android:text="男"
+            android:textColor="@color/font_333"
+            android:textSize="@dimen/font_14"/>
+
+        <View
+            style="@style/line_width"></View>
+
+        <TextView
+            android:id="@+id/sex_woman"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sex_pop_hei"
+            android:gravity="center"
+            android:text="女"
+            android:textColor="@color/font_333"
+            android:textSize="@dimen/font_14"/>
+
+        <View
+            style="@style/line_width"></View>
+
+        <TextView
+            android:id="@+id/sex_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sex_pop_hei"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/font_333"
+            android:textSize="@dimen/font_14"/>
+    </LinearLayout>
+</LinearLayout>

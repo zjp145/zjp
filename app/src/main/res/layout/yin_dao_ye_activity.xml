@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <!--创建一个欢迎页面首先登陆显示的Viewpager-->
+    <android.support.v4.view.ViewPager
+        android:id="@+id/dh_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ></android.support.v4.view.ViewPager>
+    <!--导航的点-->
+    <LinearLayout
+        android:id="@+id/dh_linearlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+    <ImageView
+        android:id="@+id/dh_imageview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:adjustViewBounds="true"
+        android:maxHeight="18dp"
+        android:src="@drawable/indicate"
+        />
+        <ImageView
+            android:id="@+id/dh_imageview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:adjustViewBounds="true"
+            android:maxHeight="18dp"
+            android:src="@drawable/indicate"
+            />
+        <ImageView
+            android:id="@+id/dh_imageview3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:adjustViewBounds="true"
+            android:maxHeight="18dp"
+            android:src="@drawable/indicate"
+            />
+
+
+    </LinearLayout>
+</RelativeLayout>

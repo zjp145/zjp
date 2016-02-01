@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/title_height"
+    android:background="@color/title_bg"
+    >
+
+    <ImageButton
+        android:id="@+id/tbv_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:scaleType="centerInside"
+        android:adjustViewBounds="true"
+        android:src="@drawable/title_back"
+        android:contentDescription="Back" />
+
+    <TextView
+        android:id="@+id/tbv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:singleLine="true"
+        android:textSize="@dimen/font19"
+        android:textColor="@color/font_fff"
+        android:text="标  题"/>
+
+    <ImageButton
+        android:id="@+id/tbv_enter"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        android:contentDescription="Enter" />
+
+</RelativeLayout>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="debug"><source path="E:\svnloadcode\Sqone\library\build\intermediates\bundles\debug\assets"/></dataSet><dataSet config="main"><source path="E:\svnloadcode\Sqone\library\src\androidTest\assets"/></dataSet></merger>
