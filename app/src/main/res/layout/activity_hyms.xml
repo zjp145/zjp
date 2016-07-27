@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--会议描述-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/view_cr"
+    android:orientation="vertical"
+    tools:context="com.zhang.sqone.home.HymsActivity">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dengle_action_height"
+        android:background="@color/rul_bj" />
+
+    <com.zhang.sqone.views.TitleBarView
+        android:id="@+id/huiyi_miaoshu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="会议描述"></com.zhang.sqone.views.TitleBarView>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="109dp"
+    android:layout_marginTop="13dp"
+    android:orientation="horizontal"
+    android:background="@drawable/linearlayout_br"
+    >
+    <TextView
+        style="@style/keshi_liebiao_text1"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="@dimen/font_14"
+        android:text="描述"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginRight="14dp"
+        android:orientation="vertical"
+        >
+        <EditText
+            android:id="@+id/huiyi_miaoshu_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="100"
+            android:layout_weight="1"
+            android:textColor="@color/lint_text_color"
+            android:gravity="top"
+
+            android:textSize="11dp"
+            android:background="@null"
+            android:hint="100字以内..."
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="13dp"
+            android:layout_gravity="right"
+            >
+            <TextView
+                android:id="@+id/zhang_1"
+           style="@style/huiyi_miaosu_text"
+            android:text="0"
+            />
+            <TextView
+                style="@style/huiyi_miaosu_text"
+                android:text="/"
+                />
+            <TextView
+                style="@style/huiyi_miaosu_text"
+                android:text="100"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+    <Button
+        android:id="@+id/huiyi_miaoshu_button"
+        style="@style/denglu_button"
+        android:text="确定"
+        android:textColor="@color/font_fff"
+        android:layout_marginRight="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="25dp"
+        android:textSize="@dimen/font_14"
+        />
+</LinearLayout>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/view_cr"
+    tools:context="com.zhang.sqone.home.FwyqActivity">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dengle_action_height"
+        android:background="@color/rul_bj" />
+
+    <com.zhang.sqone.views.TitleBarView
+        android:id="@+id/fuyq_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:rightButtonEnable="true"
+        app:rightButtonBgImg="@mipmap/tongxunlu_xuanzhong"
+        android:text="服务要求"></com.zhang.sqone.views.TitleBarView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/linearlayout_br"
+                android:orientation="horizontal"
+                >
+                <CheckBox
+                    android:id="@+id/checkbox_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/hyfw_xzq"
+                    android:layout_marginTop="23dp"
+                    android:layout_margin="23dp"
+                    android:layout_marginLeft="21.7dp"
+                    android:layout_marginRight="18dp"
+                    />
+
+                <TextView
+                    style="@style/huangjing_dizhi_text"
+                    android:text="照片摄像"
+                    android:layout_gravity="center_vertical"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/linearlayout_br"
+                android:orientation="horizontal"
+                >
+                <CheckBox
+                    android:id="@+id/checkbox_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/hyfw_xzq"
+                    android:layout_marginTop="23dp"
+                    android:layout_margin="23dp"
+                    android:layout_marginLeft="21.7dp"
+                    android:layout_marginRight="18dp"
+                    />
+
+                <TextView
+                    style="@style/huangjing_dizhi_text"
+                    android:text="摆放桌签"
+                    android:layout_gravity="center_vertical"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/linearlayout_br"
+                android:orientation="horizontal"
+                >
+                <CheckBox
+                    android:id="@+id/checkbox_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/hyfw_xzq"
+                    android:layout_marginTop="23dp"
+                    android:layout_margin="23dp"
+                    android:layout_marginLeft="21.7dp"
+                    android:layout_marginRight="18dp"
+                    />
+
+                <TextView
+                    style="@style/huangjing_dizhi_text"
+                    android:text="需要音响"
+                    android:layout_gravity="center_vertical"
+                    />
+
+            </LinearLayout><LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/linearlayout_br"
+            android:orientation="horizontal"
+            >
+            <CheckBox
+                android:id="@+id/checkbox_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/hyfw_xzq"
+                android:layout_marginTop="23dp"
+                android:layout_margin="23dp"
+                android:layout_marginLeft="21.7dp"
+                android:layout_marginRight="18dp"
+                />
+
+            <TextView
+                style="@style/huangjing_dizhi_text"
+                android:text="开放空调"
+                android:layout_gravity="center_vertical"
+                />
+
+        </LinearLayout><LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/linearlayout_br"
+            android:orientation="horizontal"
+            >
+            <CheckBox
+                android:id="@+id/checkbox_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/hyfw_xzq"
+                android:layout_marginTop="23dp"
+                android:layout_margin="23dp"
+                android:layout_marginLeft="21.7dp"
+                android:layout_marginRight="18dp"
+                />
+
+            <TextView
+                style="@style/huangjing_dizhi_text"
+                android:text="会议组准备茶水"
+                android:layout_gravity="center_vertical"
+                />
+
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/linearlayout_br"
+                android:orientation="horizontal"
+                >
+                <CheckBox
+                    android:id="@+id/checkbox_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/hyfw_xzq"
+                    android:layout_marginTop="23dp"
+                    android:layout_margin="23dp"
+                    android:layout_marginLeft="21.7dp"
+                    android:layout_marginRight="18dp"
+                    />
+
+                <TextView
+                    style="@style/huangjing_dizhi_text"
+                    android:text="会议组准备电脑"
+                    android:layout_gravity="center_vertical"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/linearlayout_br"
+                android:orientation="horizontal"
+                >
+                <CheckBox
+                    android:id="@+id/checkbox_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/hyfw_xzq"
+                    android:layout_marginTop="23dp"
+                    android:layout_margin="23dp"
+                    android:layout_marginLeft="21.7dp"
+                    android:layout_marginRight="18dp"
+                    />
+
+                <TextView
+                    style="@style/huangjing_dizhi_text"
+                    android:text="准备话筒"
+                    android:layout_gravity="center_vertical"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:background="@color/font_fff"
+                android:orientation="horizontal"
+                >
+                <CheckBox
+                    android:id="@+id/checkbox_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/hyfw_xzq"
+                    android:layout_marginTop="23dp"
+                    android:layout_margin="23dp"
+                    android:layout_marginLeft="21.7dp"
+                    android:layout_marginRight="18dp"
+                    />
+
+                <TextView
+                    style="@style/huangjing_dizhi_text"
+                    android:text="准备电子屏"
+                    android:layout_gravity="center_vertical"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/font_fff"
+                >
+                <EditText
+                    android:id="@+id/fuyq_msh"
+                    android:layout_marginBottom="23dp"
+                    android:layout_width="match_parent"
+                    style="@style/keshi_liebiao_text2"
+                    android:layout_marginLeft="68dp"
+                    android:background="@null"
+                    android:hint="请输入内容"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

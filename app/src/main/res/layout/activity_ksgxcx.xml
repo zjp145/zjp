@@ -1,0 +1,44 @@
+<!--科室工作查询-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/view_cr"
+    tools:context="com.zhang.sqone.home.KsgxcxActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dengle_action_height"
+        android:background="@color/rul_bj" />
+
+    <com.zhang.sqone.views.TitleBarView
+        android:id="@+id/ksgzcx_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="科室工作查询"></com.zhang.sqone.views.TitleBarView>
+    <EditText
+        android:id="@+id/search_et"
+        android:drawableLeft="@mipmap/sousuo"
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_width"
+        android:layout_marginTop="@dimen/ss_layout_top"
+        android:layout_marginLeft="@dimen/ss_layout_mar"
+        android:layout_marginRight="@dimen/ss_layout_mar"
+        android:layout_marginBottom="@dimen/ss_layout_top"
+        android:drawablePadding="6dp"
+        android:background="@drawable/search_edittext_shape"
+        style="@style/ss_lint_text"
+        android:imeOptions="actionSearch"
+        android:inputType="text"
+        android:hint="输入标题或上传人查询"/>
+    <com.zhang.sqone.pullswipe.PullToRefreshSwipeMenuListView
+        android:divider="@color/view_cr"
+        android:id="@+id/keshigz_list"
+        android:dividerHeight="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.zhang.sqone.pullswipe.PullToRefreshSwipeMenuListView>
+
+</LinearLayout>

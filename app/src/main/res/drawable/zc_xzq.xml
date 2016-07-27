@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--协议选择器-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_checked="true" android:drawable="@mipmap/jizhumima2"/>
+    <item  android:state_checked="false" android:drawable="@mipmap/jizhumima1"/>
+</selector>

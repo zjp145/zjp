@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/gz_lygxm"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/my_height_item"
+        android:background="@drawable/linearlayout_strok"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+             android:id="@+id/gz_v"
+            style="@style/title_text"
+            android:layout_marginLeft="@dimen/my_left_item"
+            android:layout_weight="1"
+            android:text="员工姓名"
+            android:textSize="13dp" />
+
+        <TextView
+            android:id="@+id/gz_k"
+            style="@style/grid_item_text"
+            android:layout_marginRight="@dimen/my_left_item"
+
+            android:textColor="#999999" />
+
+    </LinearLayout>
+</LinearLayout>

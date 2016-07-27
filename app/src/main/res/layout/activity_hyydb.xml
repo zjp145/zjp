@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--会议室预定的列表页-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/view_cr"
+    tools:context="com.zhang.sqone.home.HyydbActivity">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dengle_action_height"
+        android:background="@color/rul_bj" />
+
+    <com.zhang.sqone.views.TitleBarView
+        android:id="@+id/huiyi_yuding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="会议室预定"></com.zhang.sqone.views.TitleBarView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:orientation="horizontal"
+
+
+                android:layout_marginTop="4dp"
+                android:gravity="center_vertical"
+                android:background="@color/font_fff"
+                >
+                <TextView
+                    style="@style/keshi_liebiao_text1"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="14dp"
+                    android:text="申请人"
+                    />
+                <TextView
+                    android:id="@+id/huiyi_shenqingren"
+                    style="@style/keshi_liebiao_text2"
+                    android:layout_marginRight="14dp"
+                    android:text="李冰冰"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:orientation="horizontal"
+
+
+                android:layout_marginTop="4dp"
+                android:gravity="center_vertical"
+                android:background="@color/font_fff"
+                >
+                <TextView
+                    style="@style/keshi_liebiao_text1"
+                    android:layout_marginLeft="14dp"
+                    android:layout_weight="1"
+                    android:text="会议室"
+                    />
+                <TextView
+                    android:id="@+id/huiyishi"
+                    style="@style/keshi_liebiao_text2"
+                    android:layout_marginRight="14dp"
+                    android:text="第一会议室"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/huiyi_mingchengl"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="4dp"
+                android:gravity="center_vertical"
+                android:background="@color/font_fff"
+                >
+                <TextView
+                    style="@style/keshi_liebiao_text1"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="14dp"
+                    android:text="会议名称"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="14dp"
+                    android:src="@mipmap/yuding_you"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                android:background="@color/font_fff"
+                >
+                <TextView
+                    android:id="@+id/huiyi_huiyishimc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:visibility="gone"
+                    android:layout_marginBottom="13dp"
+                    android:text="加大经费卡；记得付款；按房间大；记得付款"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:orientation="horizontal"
+
+
+                android:layout_marginTop="4dp"
+                android:gravity="center_vertical"
+                android:background="@color/font_fff"
+                >
+                <TextView
+                    style="@style/keshi_liebiao_text1"
+                    android:layout_marginLeft="14dp"
+                    android:layout_weight="1"
+                    android:text="会议时间"
+                    />
+                <TextView
+                    android:id="@+id/huiyi_shijian"
+                    style="@style/keshi_liebiao_text2"
+                    android:layout_marginRight="14dp"
+                    android:text="2015-02-02  上午"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/huiyi_chuxirenl"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:orientation="horizontal"
+
+
+                android:layout_marginTop="4dp"
+                android:gravity="center_vertical"
+                android:background="@color/font_fff"
+                >
+                <TextView
+                    style="@style/keshi_liebiao_text1"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="14dp"
+                    android:text="出席人员"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="14dp"
+                    android:src="@mipmap/yuding_you"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                android:background="@color/font_fff"
+                >
+                <TextView
+                    android:id="@+id/huiyi_chuxiren"
+                    android:layout_width="wrap_content"
+                    android:visibility="gone"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginBottom="13dp"
+                    android:text="加大经费卡；记得付款；按房间大；记得付款"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/huiyi_canhuirenl"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:orientation="horizontal"
+
+
+                android:layout_marginTop="4dp"
+                android:gravity="center_vertical"
+                android:background="@color/font_fff"
+                >
+                <TextView
+                    style="@style/keshi_liebiao_text1"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="14dp"
+                    android:text="参会人员"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="14dp"
+                    android:src="@mipmap/yuding_you"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                android:background="@color/font_fff"
+                >
+                <TextView
+                    android:id="@+id/huiyi_canhuiren"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginBottom="13dp"
+                    android:text="加大经费卡；记得付款；按房间大；记得付款"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/huiyi_fuwuyaoqul"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:orientation="horizontal"
+
+
+                android:layout_marginTop="4dp"
+                android:gravity="center_vertical"
+                android:background="@color/font_fff"
+                >
+                <TextView
+                    style="@style/keshi_liebiao_text1"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="14dp"
+                    android:text="服务要求"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="14dp"
+                    android:src="@mipmap/yuding_you"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                android:background="@color/font_fff"
+                >
+                <TextView
+                    android:id="@+id/huiyi_fuwuyaoqu"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginBottom="13dp"
+                    android:text="加大经费卡；记得付款；按房间大；记得付款"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/huiyi_miaoshul"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:orientation="horizontal"
+
+
+                android:layout_marginTop="4dp"
+                android:gravity="center_vertical"
+                android:background="@color/font_fff"
+                >
+                <TextView
+                    style="@style/keshi_liebiao_text1"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="14dp"
+                    android:text="会议描述"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="14dp"
+                    android:src="@mipmap/yuding_you"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                android:background="@color/font_fff"
+                >
+                <TextView
+                    android:id="@+id/huiyi_miaoshu1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginBottom="13dp"
+                    android:text="加大经费卡；记得付款；按房间大；记得付款"
+                    />
+            </LinearLayout>
+            <Button
+                android:id="@+id/hy_button"
+                style="@style/denglu_button"
+                android:text="提交"
+                android:textColor="@color/font_fff"
+                android:layout_marginRight="14dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="@dimen/denglu_button_top"
+                android:layout_marginBottom="31dp"
+                android:textSize="@dimen/font_14"
+
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

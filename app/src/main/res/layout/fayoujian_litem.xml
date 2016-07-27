@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@drawable/linearlayout_br"
+    android:orientation="horizontal">
+<ImageView
+    android:id="@+id/fj_wenjian"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="12dp"
+    android:layout_marginBottom="12dp"
+    android:src="@mipmap/png"
+    android:layout_marginLeft="14dp"
+    />
+    <TextView
+        android:id="@+id/fj_mingzi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="附件的名称"
+        android:textColor="#333"
+        android:layout_weight="1"
+        android:textSize="10dp"
+        android:layout_marginLeft="7dp"
+        />
+
+    <TextView
+        android:id="@+id/fj_jd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="6dp"
+
+        android:textSize="10dp"
+        android:textColor="#999"
+        android:text="上传完成"
+        />
+    <ImageView
+        android:id="@+id/fj_chanchu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="14dp"
+        android:src="@mipmap/shanchu"
+        />
+</LinearLayout>

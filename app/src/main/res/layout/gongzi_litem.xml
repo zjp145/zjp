@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--工资列表-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:background="@color/font_fff"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:layout_marginBottom="34dp"
+        android:src="@mipmap/gongzi"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:text="实发工资："
+        android:textColor="#333"
+        android:textSize="13dp"
+        android:layout_marginRight="10dp"
+        />
+    <TextView
+        android:id="@+id/gongzhi_text"
+       android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+      android:textColor="#fb8472"
+        android:layout_weight="1"
+
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/time"
+        android:layout_marginRight="6dp"
+        />
+    <TextView
+        android:id="@+id/gongzhi_time"
+        style="@style/ss_lint_text"
+        android:layout_marginRight="14dp"
+        />
+
+</LinearLayout>

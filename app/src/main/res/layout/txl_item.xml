@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--通讯录item-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/font_fff"
+    android:orientation="horizontal">
+    <com.zhang.sqone.views.CircularImage
+        android:id="@+id/f_txl_iamge"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="14dp"
+        android:src="@mipmap/tongxunlu_moren"
+        android:layout_marginRight="11dp"
+
+    />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_marginTop="6dp"
+    >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="9dp"
+            android:gravity="center_vertical"
+            >
+            <TextView
+                android:id="@+id/f_txl_xm"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+
+                android:id="@+id/f_txl_yx"
+                android:textColor="@color/bs_zz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="6dp"
+            >
+            <TextView
+                android:id="@+id/f_txl_ks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginRight="24dp"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/yonghu_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_gravity="center_vertical"
+        android:layout_marginRight="14dp"
+        android:orientation="horizontal"
+        >
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/grid_cr"
+            android:layout_marginRight="20dp"
+            />
+        <ImageView
+            android:id="@+id/f_txl_duxi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:src="@mipmap/tongxunlu_xinxi"
+            />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/grid_cr"
+            android:layout_marginRight="20dp"
+            />
+        <ImageView
+
+            android:id="@+id/f_txl_dh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:src="@mipmap/tongxunlu_dianhua"
+
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></LinearLayout>
+</LinearLayout>

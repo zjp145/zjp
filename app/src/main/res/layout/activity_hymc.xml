@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--会议名称-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/view_cr"
+    android:orientation="vertical"
+    tools:context="com.zhang.sqone.home.HymcActivity">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dengle_action_height"
+        android:background="@color/rul_bj" />
+
+    <com.zhang.sqone.views.TitleBarView
+        android:id="@+id/huiyi_mingcheng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="会议名称"></com.zhang.sqone.views.TitleBarView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:orientation="horizontal"
+        android:background="@drawable/linearlayout_br"
+        >
+        <TextView
+            style="@style/keshi_liebiao_text1"
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="@dimen/font_14"
+            android:layout_marginRight="22dp"
+            android:layout_marginBottom="13dp"
+            android:text="会议名称"
+            />
+            ><EditText
+        android:id="@+id/hy_mc_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/lint_text_color"
+                android:gravity="top"
+                android:textSize="11dp"
+                android:layout_gravity="center_vertical"
+                android:background="@null"
+                android:hint="不超过20个字符"
+                />
+
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/hy_mc_button"
+        style="@style/denglu_button"
+        android:text="确定"
+        android:textColor="@color/font_fff"
+        android:layout_marginRight="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="25dp"
+        android:textSize="@dimen/font_14"
+        />
+</LinearLayout>

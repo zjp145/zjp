@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--联系人的父布局-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/font_fff"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/txl_1"
+        style="@style/keshi_liebiao_text2"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:text="01"
+        android:layout_marginLeft="14dp"
+        />
+</LinearLayout>

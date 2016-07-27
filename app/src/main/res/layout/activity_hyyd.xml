@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--会议预定界面-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/view_cr"
+    android:orientation="vertical"
+    tools:context="com.zhang.sqone.home.HyydActivity">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dengle_action_height"
+        android:background="@color/rul_bj" />
+
+    <com.zhang.sqone.views.TitleBarView
+        android:id="@+id/huiyi_miaoshu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="会议室预定"></com.zhang.sqone.views.TitleBarView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="23dp"
+                android:layout_marginBottom="17dp"
+                >
+                <TextView
+                    android:id="@+id/tiem_shangwu"
+                   style="@style/huiyi_title_text"
+                    android:layout_marginRight="13dp"
+                    android:layout_marginLeft="14dp"
+                    android:text="01-03"
+                    />
+                <TextView
+                    android:id="@+id/time_weeks"
+                    style="@style/huiyi_title_text"
+                    android:layout_marginRight="13dp"
+                    android:text="周二"
+                    />
+                <TextView
+                    style="@style/huiyi_title_text"
+                    android:text="上午"
+                    />
+
+            </LinearLayout>
+            <com.zhang.sqone.views.ListViewForScrollView
+                android:id="@+id/shangwu_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@null"
+                android:dividerHeight="4dp"
+                ></com.zhang.sqone.views.ListViewForScrollView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="23dp"
+                android:layout_marginBottom="17dp"
+                >
+                <TextView
+                    android:id="@+id/tiem_xiawu"
+                    style="@style/huiyi_title_text"
+                    android:layout_marginRight="13dp"
+                    android:layout_marginLeft="14dp"
+                    android:text="01-03"
+                    />
+                <TextView
+                    android:id="@+id/time_weekx"
+                    style="@style/huiyi_title_text"
+                    android:layout_marginRight="13dp"
+                    android:text="周二"
+                    />
+                <TextView
+
+                    style="@style/huiyi_title_text"
+
+                    android:text="下午"
+                    />
+
+            </LinearLayout>
+            <com.zhang.sqone.views.ListViewForScrollView
+                android:id="@+id/xiawu_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@null"
+                android:dividerHeight="4dp"
+                ></com.zhang.sqone.views.ListViewForScrollView>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--通讯录使用的职位的背景-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    >  <!-- 实心 -->
+    <solid android:color="#fb8472"/>
+
+
+    <!-- 圆角 -->
+    <corners
+        android:radius="3dp" />
+    <padding
+        android:left="7dp"
+        android:top="3dp"
+        android:right="7dp"
+        android:bottom="3dp" />
+</shape>

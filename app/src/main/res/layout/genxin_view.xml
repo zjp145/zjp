@@ -1,0 +1,175 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="259dp"
+    android:layout_height="190dp"
+    android:layout_gravity="center"
+    android:background="@drawable/search_edittext_shape"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="v1.7.5  2016/7/22"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="14dp"
+            android:textColor="@color/font_333"
+            android:textSize="@dimen/font_14" />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="1.添加会议资料管理模块"
+            android:layout_marginLeft="14dp"
+            android:textColor="@color/font_333"
+            android:textSize="@dimen/font_14" />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="2.新增忘记密码功能"
+            android:layout_marginLeft="14dp"
+            android:textColor="@color/font_333"
+            android:textSize="@dimen/font_14" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="v1.7.4  2016/7/15"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="14dp"
+            android:textColor="@color/font_333"
+            android:textSize="@dimen/font_14" />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="1.添加班子会议题上报模块"
+            android:layout_marginLeft="14dp"
+            android:textColor="@color/font_333"
+            android:textSize="@dimen/font_14" />
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:text="3.首页添加领导日程功能"-->
+            <!--android:layout_marginLeft="14dp"-->
+            <!--android:textColor="@color/font_333"-->
+            <!--android:textSize="@dimen/font_14" />-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:text="4.首页添加日程安排功能"-->
+            <!--android:layout_marginLeft="14dp"-->
+            <!--android:textColor="@color/font_333"-->
+            <!--android:textSize="@dimen/font_14" />-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:text="5.班子会议提查询添加上传文件功能"-->
+            <!--android:layout_marginLeft="14dp"-->
+            <!--android:textColor="@color/font_333"-->
+            <!--android:textSize="@dimen/font_14" />-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:text="6.首页加号新加政府发文和党委发文"-->
+            <!--android:layout_marginLeft="14dp"-->
+            <!--android:textColor="@color/font_333"-->
+            <!--android:textSize="@dimen/font_14" />-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:text="7.新增当前网络延迟提示"-->
+            <!--android:layout_marginLeft="14dp"-->
+            <!--android:textColor="@color/font_333"-->
+            <!--android:textSize="@dimen/font_14" />-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:text="8.新增我的文件删除功能"-->
+            <!--android:layout_marginLeft="14dp"-->
+            <!--android:textColor="@color/font_333"-->
+            <!--android:textSize="@dimen/font_14" />-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:text="9.新增提示更新内容"-->
+            <!--android:layout_marginLeft="14dp"-->
+            <!--android:textColor="@color/font_333"-->
+            <!--android:textSize="@dimen/font_14" />-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:text="10.优化传资料上传附件功能"-->
+            <!--android:layout_marginLeft="14dp"-->
+            <!--android:textColor="@color/font_333"-->
+            <!--android:textSize="@dimen/font_14" />-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:text="11.优化选择人员模块"-->
+            <!--android:layout_marginLeft="14dp"-->
+            <!--android:textColor="@color/font_333"-->
+            <!--android:textSize="@dimen/font_14" />-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:text="12.优化通信录格式"-->
+            <!--android:layout_marginLeft="14dp"-->
+            <!--android:textColor="@color/font_333"-->
+            <!--android:textSize="@dimen/font_14" />-->
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/darkgray"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+
+            >
+
+            <Button
+                android:id="@+id/bt_dg_ecaluation_confirm3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:textSize="@dimen/font_14"
+                android:textColor="@color/title_bg"
+                android:text="确定"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
