@@ -56,6 +56,10 @@
         "source": "/Users/mac/AndroidStudioProjects/zxtz/tianzu/datetimepicker-library/res/layout/date_picker_done_button.xml"
     },
     {
+        "merged": "/Users/mac/AndroidStudioProjects/22/zjp/datetimepicker-library/build/intermediates/res/merged/debug/layout/time_picker_dialog.xml",
+        "source": "/Users/mac/AndroidStudioProjects/22/zjp/datetimepicker-library/res/layout/time_picker_dialog.xml"
+    },
+    {
         "merged": "/Users/mac/AndroidStudioProjects/11/tianzu/D:\\Users\\mac\\AndroidStudioProjects\\tianzu\\D:\\csxm\\tianzu\\datetimepicker-library\\build\\intermediates\\res\\merged\\debug\\layout\\time_header_label.xml",
         "source": "/Users/mac/AndroidStudioProjects/11/tianzu/D:\\Users\\mac\\AndroidStudioProjects\\tianzu\\D:\\csxm\\tianzu\\datetimepicker-library\\res\\layout\\time_header_label.xml"
     },
@@ -100,6 +104,10 @@
         "source": "/Users/mac/AndroidStudioProjects/11/tianzu/D:\\Users\\mac\\AndroidStudioProjects\\tianzu\\D:\\Users\\mac\\xingji\\tianzu\\datetimepicker-library\\res\\layout\\date_picker_selected_date.xml"
     },
     {
+        "merged": "/Users/mac/AndroidStudioProjects/22/zjp/datetimepicker-library/build/intermediates/res/merged/debug/layout/time_header_label.xml",
+        "source": "/Users/mac/AndroidStudioProjects/22/zjp/datetimepicker-library/res/layout/time_header_label.xml"
+    },
+    {
         "merged": "/Users/mac/AndroidStudioProjects/11/tianzu/D:\\Users\\mac\\AndroidStudioProjects\\tianzu\\D:\\Users\\mac\\xingji\\tianzu\\D:\\Users\\mac\\AndroidStudioProjects\\datetimepicker-master\\datetimepicker-library\\build\\intermediates\\res\\merged\\debug\\layout\\time_picker_dialog.xml",
         "source": "/Users/mac/AndroidStudioProjects/11/tianzu/D:\\Users\\mac\\AndroidStudioProjects\\tianzu\\D:\\Users\\mac\\xingji\\tianzu\\D:\\Users\\mac\\AndroidStudioProjects\\datetimepicker-master\\datetimepicker-library\\res\\layout\\time_picker_dialog.xml"
     },
@@ -122,6 +130,10 @@
     {
         "merged": "/Users/mac/AndroidStudioProjects/11/tianzu/D:\\Users\\mac\\AndroidStudioProjects\\tianzu\\D:\\Users\\mac\\xingji\\tianzu\\datetimepicker-library\\build\\intermediates\\res\\merged\\debug\\layout\\time_header_label.xml",
         "source": "/Users/mac/AndroidStudioProjects/11/tianzu/D:\\Users\\mac\\AndroidStudioProjects\\tianzu\\D:\\Users\\mac\\xingji\\tianzu\\datetimepicker-library\\res\\layout\\time_header_label.xml"
+    },
+    {
+        "merged": "/Users/mac/AndroidStudioProjects/22/zjp/datetimepicker-library/build/intermediates/res/merged/debug/layout/date_picker_done_button.xml",
+        "source": "/Users/mac/AndroidStudioProjects/22/zjp/datetimepicker-library/res/layout/date_picker_done_button.xml"
     },
     {
         "merged": "/Users/mac/AndroidStudioProjects/11/tianzu/datetimepicker-library/build/intermediates/res/merged/debug/layout/date_picker_selected_date.xml",
@@ -150,6 +162,10 @@
     {
         "merged": "/Users/mac/AndroidStudioProjects/11/tianzu/D:\\AndroidXM\\tianzu\\tianzu\\datetimepicker-library\\build\\intermediates\\res\\merged\\debug\\layout\\date_picker_view_animator.xml",
         "source": "/Users/mac/AndroidStudioProjects/11/tianzu/D:\\AndroidXM\\tianzu\\tianzu\\datetimepicker-library\\res\\layout\\date_picker_view_animator.xml"
+    },
+    {
+        "merged": "/Users/mac/AndroidStudioProjects/22/zjp/datetimepicker-library/build/intermediates/res/merged/debug/layout/date_picker_dialog.xml",
+        "source": "/Users/mac/AndroidStudioProjects/22/zjp/datetimepicker-library/res/layout/date_picker_dialog.xml"
     },
     {
         "merged": "/Users/mac/AndroidStudioProjects/11/tianzu/D:\\Users\\mac\\AndroidStudioProjects\\tianzu\\D:\\AndroidXM\\tianzu\\datetimepicker-library\\build\\intermediates\\res\\merged\\debug\\layout\\date_picker_header_view.xml",
@@ -268,6 +284,10 @@
         "source": "/Users/mac/AndroidStudioProjects/11/tianzu/D:\\Users\\mac\\AndroidStudioProjects\\tianzu\\D:\\Users\\mac\\xingji\\tianzu\\D:\\androidstudioxm\\tianzu\\datetimepicker-library\\res\\layout\\date_picker_done_button.xml"
     },
     {
+        "merged": "/Users/mac/AndroidStudioProjects/22/zjp/datetimepicker-library/build/intermediates/res/merged/debug/layout/date_picker_view_animator.xml",
+        "source": "/Users/mac/AndroidStudioProjects/22/zjp/datetimepicker-library/res/layout/date_picker_view_animator.xml"
+    },
+    {
         "merged": "/Users/mac/AndroidStudioProjects/11/tianzu/datetimepicker-library/build/intermediates/res/merged/debug/layout/year_label_text_view.xml",
         "source": "/Users/mac/AndroidStudioProjects/11/tianzu/datetimepicker-library/res/layout/year_label_text_view.xml"
     },
@@ -282,6 +302,14 @@
     {
         "merged": "/Users/mac/AndroidStudioProjects/zxtz/tianzu/datetimepicker-library/build/intermediates/res/merged/debug/layout/date_picker_selected_date.xml",
         "source": "/Users/mac/AndroidStudioProjects/zxtz/tianzu/datetimepicker-library/res/layout/date_picker_selected_date.xml"
+    },
+    {
+        "merged": "/Users/mac/AndroidStudioProjects/22/zjp/datetimepicker-library/build/intermediates/res/merged/debug/layout/date_picker_selected_date.xml",
+        "source": "/Users/mac/AndroidStudioProjects/22/zjp/datetimepicker-library/res/layout/date_picker_selected_date.xml"
+    },
+    {
+        "merged": "/Users/mac/AndroidStudioProjects/22/zjp/datetimepicker-library/build/intermediates/res/merged/debug/layout/date_picker_header_view.xml",
+        "source": "/Users/mac/AndroidStudioProjects/22/zjp/datetimepicker-library/res/layout/date_picker_header_view.xml"
     },
     {
         "merged": "/Users/mac/AndroidStudioProjects/11/tianzu/D:\\Users\\mac\\AndroidStudioProjects\\tianzu\\D:\\AndroidXM\\tianzu\\datetimepicker-library\\build\\intermediates\\res\\merged\\debug\\layout\\date_picker_done_button.xml",
@@ -306,6 +334,10 @@
     {
         "merged": "/Users/mac/AndroidStudioProjects/11/tianzu/D:\\Users\\mac\\AndroidStudioProjects\\tianzu\\D:\\csxm\\tianzu\\datetimepicker-library\\build\\intermediates\\res\\merged\\debug\\layout\\year_label_text_view.xml",
         "source": "/Users/mac/AndroidStudioProjects/11/tianzu/D:\\Users\\mac\\AndroidStudioProjects\\tianzu\\D:\\csxm\\tianzu\\datetimepicker-library\\res\\layout\\year_label_text_view.xml"
+    },
+    {
+        "merged": "/Users/mac/AndroidStudioProjects/22/zjp/datetimepicker-library/build/intermediates/res/merged/debug/layout/year_label_text_view.xml",
+        "source": "/Users/mac/AndroidStudioProjects/22/zjp/datetimepicker-library/res/layout/year_label_text_view.xml"
     },
     {
         "merged": "/Users/mac/AndroidStudioProjects/11/tianzu/D:\\Users\\mac\\AndroidStudioProjects\\tianzu\\datetimepicker-library\\build\\intermediates\\res\\merged\\debug\\layout\\date_picker_header_view.xml",

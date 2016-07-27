@@ -36,6 +36,10 @@
         "source": "/Users/mac/AndroidStudioProjects/zxtz/tianzu/library/build/intermediates/bundles/debug/res/layout/pull_to_refresh_header_horizontal.xml"
     },
     {
+        "merged": "/Users/mac/AndroidStudioProjects/22/zjp/library/build/intermediates/res/merged/androidTest/debug/layout/pull_to_refresh_header_horizontal.xml",
+        "source": "/Users/mac/AndroidStudioProjects/22/zjp/library/build/intermediates/bundles/debug/res/layout/pull_to_refresh_header_horizontal.xml"
+    },
+    {
         "merged": "/Users/mac/AndroidStudioProjects/11/tianzu/D:\\Users\\mac\\AndroidStudioProjects\\tianzu\\D:\\Users\\mac\\xingji\\tianzu\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_refresh_header_vertical.xml",
         "source": "/Users/mac/AndroidStudioProjects/11/tianzu/D:\\Users\\mac\\AndroidStudioProjects\\tianzu\\D:\\Users\\mac\\xingji\\tianzu\\library\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_header_vertical.xml"
     },
@@ -70,5 +74,9 @@
     {
         "merged": "/Users/mac/AndroidStudioProjects/11/tianzu/D:\\Users\\mac\\AndroidStudioProjects\\tianzu\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_refresh_header_horizontal.xml",
         "source": "/Users/mac/AndroidStudioProjects/11/tianzu/D:\\Users\\mac\\AndroidStudioProjects\\tianzu\\library\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "/Users/mac/AndroidStudioProjects/22/zjp/library/build/intermediates/res/merged/androidTest/debug/layout/pull_to_refresh_header_vertical.xml",
+        "source": "/Users/mac/AndroidStudioProjects/22/zjp/library/build/intermediates/bundles/debug/res/layout/pull_to_refresh_header_vertical.xml"
     }
 ]

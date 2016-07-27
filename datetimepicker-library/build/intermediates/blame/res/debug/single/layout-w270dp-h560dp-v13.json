@@ -32,6 +32,10 @@
         "source": "/Users/mac/AndroidStudioProjects/zxtz/tianzu/datetimepicker-library/res/layout-w270dp-h560dp/date_picker_dialog.xml"
     },
     {
+        "merged": "/Users/mac/AndroidStudioProjects/22/zjp/datetimepicker-library/build/intermediates/res/merged/debug/layout-w270dp-h560dp-v13/date_picker_dialog.xml",
+        "source": "/Users/mac/AndroidStudioProjects/22/zjp/datetimepicker-library/res/layout-w270dp-h560dp/date_picker_dialog.xml"
+    },
+    {
         "merged": "/Users/mac/AndroidStudioProjects/11/tianzu/datetimepicker-library/build/intermediates/res/merged/debug/layout-w270dp-h560dp-v13/date_picker_dialog.xml",
         "source": "/Users/mac/AndroidStudioProjects/11/tianzu/datetimepicker-library/res/layout-w270dp-h560dp/date_picker_dialog.xml"
     },

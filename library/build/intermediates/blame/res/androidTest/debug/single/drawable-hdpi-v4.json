@@ -12,6 +12,10 @@
         "source": "/Users/mac/AndroidStudioProjects/11/tianzu/D:\\Users\\mac\\AndroidStudioProjects\\tianzu\\D:\\Users\\mac\\xingji\\tianzu\\D:\\androidstudioxm\\tianzu\\library\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\default_ptr_flip.png"
     },
     {
+        "merged": "/Users/mac/AndroidStudioProjects/22/zjp/library/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/indicator_arrow.png",
+        "source": "/Users/mac/AndroidStudioProjects/22/zjp/library/build/intermediates/bundles/debug/res/drawable-hdpi-v4/indicator_arrow.png"
+    },
+    {
         "merged": "/Users/mac/AndroidStudioProjects/11/tianzu/library/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/default_ptr_rotate.png",
         "source": "/Users/mac/AndroidStudioProjects/11/tianzu/library/build/intermediates/bundles/debug/res/drawable-hdpi-v4/default_ptr_rotate.png"
     },
@@ -84,6 +88,10 @@
         "source": "/Users/mac/AndroidStudioProjects/11/tianzu/D:\\Users\\mac\\AndroidStudioProjects\\tianzu\\D:\\Users\\mac\\xingji\\tianzu\\library\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\default_ptr_rotate.png"
     },
     {
+        "merged": "/Users/mac/AndroidStudioProjects/22/zjp/library/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/default_ptr_flip.png",
+        "source": "/Users/mac/AndroidStudioProjects/22/zjp/library/build/intermediates/bundles/debug/res/drawable-hdpi-v4/default_ptr_flip.png"
+    },
+    {
         "merged": "/Users/mac/AndroidStudioProjects/11/tianzu/D:\\AndroidXM\\tianzu\\tianzu\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\indicator_arrow.png",
         "source": "/Users/mac/AndroidStudioProjects/11/tianzu/D:\\AndroidXM\\tianzu\\tianzu\\library\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\indicator_arrow.png"
     },
@@ -106,5 +114,9 @@
     {
         "merged": "/Users/mac/AndroidStudioProjects/11/tianzu/D:\\Users\\mac\\AndroidStudioProjects\\tianzu\\D:\\Users\\mac\\xingji\\tianzu\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\indicator_arrow.png",
         "source": "/Users/mac/AndroidStudioProjects/11/tianzu/D:\\Users\\mac\\AndroidStudioProjects\\tianzu\\D:\\Users\\mac\\xingji\\tianzu\\library\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\indicator_arrow.png"
+    },
+    {
+        "merged": "/Users/mac/AndroidStudioProjects/22/zjp/library/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/default_ptr_rotate.png",
+        "source": "/Users/mac/AndroidStudioProjects/22/zjp/library/build/intermediates/bundles/debug/res/drawable-hdpi-v4/default_ptr_rotate.png"
     }
 ]

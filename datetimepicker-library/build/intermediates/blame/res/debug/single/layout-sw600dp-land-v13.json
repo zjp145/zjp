@@ -38,5 +38,9 @@
     {
         "merged": "/Users/mac/AndroidStudioProjects/11/tianzu/D:\\Users\\mac\\AndroidStudioProjects\\tianzu\\D:\\AndroidXM\\tianzu\\datetimepicker-library\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-land-v13\\date_picker_dialog.xml",
         "source": "/Users/mac/AndroidStudioProjects/11/tianzu/D:\\Users\\mac\\AndroidStudioProjects\\tianzu\\D:\\AndroidXM\\tianzu\\datetimepicker-library\\res\\layout-sw600dp-land\\date_picker_dialog.xml"
+    },
+    {
+        "merged": "/Users/mac/AndroidStudioProjects/22/zjp/datetimepicker-library/build/intermediates/res/merged/debug/layout-sw600dp-land-v13/date_picker_dialog.xml",
+        "source": "/Users/mac/AndroidStudioProjects/22/zjp/datetimepicker-library/res/layout-sw600dp-land/date_picker_dialog.xml"
     }
 ]

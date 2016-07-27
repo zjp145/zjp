@@ -20,6 +20,10 @@
         "source": "/Users/mac/AndroidStudioProjects/11/tianzu/D:\\Users\\mac\\AndroidStudioProjects\\tianzu\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\indicator_bg_top.xml"
     },
     {
+        "merged": "/Users/mac/AndroidStudioProjects/22/zjp/library/build/intermediates/res/merged/androidTest/debug/drawable/indicator_bg_bottom.xml",
+        "source": "/Users/mac/AndroidStudioProjects/22/zjp/library/build/intermediates/bundles/debug/res/drawable/indicator_bg_bottom.xml"
+    },
+    {
         "merged": "/Users/mac/AndroidStudioProjects/11/tianzu/D:\\Users\\mac\\AndroidStudioProjects\\tianzu\\D:\\AndroidXM\\tianzu\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\indicator_bg_bottom.xml",
         "source": "/Users/mac/AndroidStudioProjects/11/tianzu/D:\\Users\\mac\\AndroidStudioProjects\\tianzu\\D:\\AndroidXM\\tianzu\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\indicator_bg_bottom.xml"
     },
@@ -62,6 +66,10 @@
     {
         "merged": "/Users/mac/AndroidStudioProjects/11/tianzu/D:\\Users\\mac\\AndroidStudioProjects\\tianzu\\D:\\Users\\mac\\xingji\\tianzu\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\indicator_bg_top.xml",
         "source": "/Users/mac/AndroidStudioProjects/11/tianzu/D:\\Users\\mac\\AndroidStudioProjects\\tianzu\\D:\\Users\\mac\\xingji\\tianzu\\library\\build\\intermediates\\bundles\\debug\\res\\drawable\\indicator_bg_top.xml"
+    },
+    {
+        "merged": "/Users/mac/AndroidStudioProjects/22/zjp/library/build/intermediates/res/merged/androidTest/debug/drawable/indicator_bg_top.xml",
+        "source": "/Users/mac/AndroidStudioProjects/22/zjp/library/build/intermediates/bundles/debug/res/drawable/indicator_bg_top.xml"
     },
     {
         "merged": "/Users/mac/AndroidStudioProjects/11/tianzu/D:\\Users\\mac\\AndroidStudioProjects\\tianzu\\D:\\AndroidXM\\di3\\tianzu\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\indicator_bg_bottom.xml",

@@ -8,12 +8,12 @@
         "source": "/Users/mac/AndroidStudioProjects/11/tianzu/D:\\Users\\mac\\AndroidStudioProjects\\tianzu\\D:\\Users\\mac\\xingji\\tianzu\\D:\\androidstudioxm\\tianzu\\library\\build\\intermediates\\bundles\\debug\\res\\anim\\slide_in_from_top.xml"
     },
     {
-        "merged": "/Users/mac/AndroidStudioProjects/11/tianzu/D:\\Users\\mac\\AndroidStudioProjects\\tianzu\\D:\\Users\\mac\\xingji\\tianzu\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_out_to_top.xml",
-        "source": "/Users/mac/AndroidStudioProjects/11/tianzu/D:\\Users\\mac\\AndroidStudioProjects\\tianzu\\D:\\Users\\mac\\xingji\\tianzu\\library\\build\\intermediates\\bundles\\debug\\res\\anim\\slide_out_to_top.xml"
-    },
-    {
         "merged": "/Users/mac/AndroidStudioProjects/zxtz/tianzu/library/build/intermediates/res/merged/androidTest/debug/anim/slide_out_to_bottom.xml",
         "source": "/Users/mac/AndroidStudioProjects/zxtz/tianzu/library/build/intermediates/bundles/debug/res/anim/slide_out_to_bottom.xml"
+    },
+    {
+        "merged": "/Users/mac/AndroidStudioProjects/11/tianzu/D:\\Users\\mac\\AndroidStudioProjects\\tianzu\\D:\\Users\\mac\\xingji\\tianzu\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_out_to_top.xml",
+        "source": "/Users/mac/AndroidStudioProjects/11/tianzu/D:\\Users\\mac\\AndroidStudioProjects\\tianzu\\D:\\Users\\mac\\xingji\\tianzu\\library\\build\\intermediates\\bundles\\debug\\res\\anim\\slide_out_to_top.xml"
     },
     {
         "merged": "/Users/mac/AndroidStudioProjects/zxtz/tianzu/library/build/intermediates/res/merged/androidTest/debug/anim/slide_out_to_top.xml",
@@ -28,12 +28,24 @@
         "source": "/Users/mac/AndroidStudioProjects/11/tianzu/D:\\Users\\mac\\AndroidStudioProjects\\tianzu\\D:\\AndroidXM\\di3\\tianzu\\library\\build\\intermediates\\bundles\\debug\\res\\anim\\slide_out_to_bottom.xml"
     },
     {
+        "merged": "/Users/mac/AndroidStudioProjects/22/zjp/library/build/intermediates/res/merged/androidTest/debug/anim/slide_out_to_bottom.xml",
+        "source": "/Users/mac/AndroidStudioProjects/22/zjp/library/build/intermediates/bundles/debug/res/anim/slide_out_to_bottom.xml"
+    },
+    {
         "merged": "/Users/mac/AndroidStudioProjects/11/tianzu/D:\\Users\\mac\\AndroidStudioProjects\\tianzu\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_out_to_top.xml",
         "source": "/Users/mac/AndroidStudioProjects/11/tianzu/D:\\Users\\mac\\AndroidStudioProjects\\tianzu\\library\\build\\intermediates\\bundles\\debug\\res\\anim\\slide_out_to_top.xml"
     },
     {
+        "merged": "/Users/mac/AndroidStudioProjects/22/zjp/library/build/intermediates/res/merged/androidTest/debug/anim/slide_out_to_top.xml",
+        "source": "/Users/mac/AndroidStudioProjects/22/zjp/library/build/intermediates/bundles/debug/res/anim/slide_out_to_top.xml"
+    },
+    {
         "merged": "/Users/mac/AndroidStudioProjects/zxtz/tianzu/library/build/intermediates/res/merged/androidTest/debug/anim/slide_in_from_bottom.xml",
         "source": "/Users/mac/AndroidStudioProjects/zxtz/tianzu/library/build/intermediates/bundles/debug/res/anim/slide_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/mac/AndroidStudioProjects/22/zjp/library/build/intermediates/res/merged/androidTest/debug/anim/slide_in_from_top.xml",
+        "source": "/Users/mac/AndroidStudioProjects/22/zjp/library/build/intermediates/bundles/debug/res/anim/slide_in_from_top.xml"
     },
     {
         "merged": "/Users/mac/AndroidStudioProjects/11/tianzu/D:\\Users\\mac\\AndroidStudioProjects\\tianzu\\D:\\Users\\mac\\xingji\\tianzu\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_in_from_bottom.xml",
@@ -122,6 +134,10 @@
     {
         "merged": "/Users/mac/AndroidStudioProjects/11/tianzu/library/build/intermediates/res/merged/androidTest/debug/anim/slide_out_to_top.xml",
         "source": "/Users/mac/AndroidStudioProjects/11/tianzu/library/build/intermediates/bundles/debug/res/anim/slide_out_to_top.xml"
+    },
+    {
+        "merged": "/Users/mac/AndroidStudioProjects/22/zjp/library/build/intermediates/res/merged/androidTest/debug/anim/slide_in_from_bottom.xml",
+        "source": "/Users/mac/AndroidStudioProjects/22/zjp/library/build/intermediates/bundles/debug/res/anim/slide_in_from_bottom.xml"
     },
     {
         "merged": "/Users/mac/AndroidStudioProjects/11/tianzu/D:\\Users\\mac\\AndroidStudioProjects\\tianzu\\D:\\AndroidXM\\tianzu\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_out_to_bottom.xml",
